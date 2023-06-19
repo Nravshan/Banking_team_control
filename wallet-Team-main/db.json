@@ -1,0 +1,123 @@
+{
+  "users": [
+    {
+      "firstname": "Shawkat",
+      "lastname": "Normurodov",
+      "email": "timanormu@gmail.com",
+      "password": "1234Shavkat",
+      "id": 1
+    },
+    {
+      "firstname": "Daler",
+      "lastname": "Sharifkulov",
+      "email": "dsarifkulo021@gmail.com",
+      "password": "1234Daler",
+      "id": 2
+    },
+    {
+      "firstname": "Ravshan",
+      "lastname": "Niyazov",
+      "email": "ravshan7@gmail.com",
+      "password": "Ravshan1234",
+      "id": 3
+    }
+  ],
+  "cards": [
+    {
+      "id": "736f5c24-74bf-4411-80ea-6c647ce17878",
+      "user_id": 1,
+      "name": "Ozodgdewifi",
+      "balance": "140000",
+      "currency": "UZS"
+    },
+    {
+      "id": "559dfbb2-c44b-44e7-8368-873ed57501f2",
+      "user_id": 2,
+      "name": "Humo",
+      "balance": "10000",
+      "currency": "dirhum"
+    },
+    {
+      "id": "9634d6ff-0b4d-4e72-b5d7-790a13970304",
+      "user_id": 2,
+      "name": "Visa",
+      "balance": 20,
+      "currency": "USD"
+    },
+    {
+      "id": "8a351d3e-ea5e-4765-b9a7-923a98539fc7",
+      "user_id": 3,
+      "name": "humo",
+      "balance": "1000",
+      "currency": "uzs"
+    },
+    {
+      "id": "4b2baaea-37ec-46aa-98de-1f653dffc3d3",
+      "user_id": 3,
+      "name": "ravshan",
+      "balance": "1000000000",
+      "currency": "uzs"
+    }
+  ],
+  "transactions": [
+    {
+      "id": 213213123123,
+      "user_id": 2,
+      "card": {
+        "id": 2,
+        "name": "Visa"
+      },
+      "category": "food",
+      "amount": 10000,
+      "date": "2023-06-15 17:33"
+    },
+    {
+      "id": "a5d9226e-f078-4ca3-9729-76c3d2c508a1",
+      "user_id": 2,
+      "date": "2023-6-15 18:0",
+      "card": {
+        "id": "9634d6ff-0b4d-4e72-b5d7-790a13970304",
+        "name": "Visa",
+        "balance": "100"
+      },
+      "amount": "30",
+      "category": "food"
+    },
+    {
+      "id": "3d2905ef-5a3c-4770-9f9b-2cfe913a40d1",
+      "user_id": 2,
+      "date": "2023-6-15 18:0",
+      "card": {
+        "id": "9634d6ff-0b4d-4e72-b5d7-790a13970304",
+        "name": "Visa",
+        "balance": 70
+      },
+      "amount": "30",
+      "category": "food"
+    },
+    {
+      "id": "6d910aa0-3061-4a36-86b9-194587878b90",
+      "user_id": 2,
+      "date": "2023-6-15 18:1",
+      "card": {
+        "id": "9634d6ff-0b4d-4e72-b5d7-790a13970304",
+        "name": "Visa",
+        "balance": 40
+      },
+      "amount": "10",
+      "category": "car"
+    },
+    {
+      "id": "011ec597-18e9-4e0d-85f5-de1887e60e3e",
+      "user_id": 2,
+      "date": "2023-6-15 18:2",
+      "card": {
+        "id": "9634d6ff-0b4d-4e72-b5d7-790a13970304",
+        "name": "Visa",
+        "balance": 30
+      },
+      "amount": "10",
+      "category": "food"
+    }
+  ]
+}
